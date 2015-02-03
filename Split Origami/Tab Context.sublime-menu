@@ -1,0 +1,13 @@
+[
+
+  {
+    "command": "origami_split_right",
+    "args": {
+      "commands": [
+        ["create_pane", {"direction": "right"}],
+        ["clone_file_to_pane", {"direction": "right"}]
+      ]
+    }
+  }
+
+]

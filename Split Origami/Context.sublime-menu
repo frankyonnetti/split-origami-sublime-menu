@@ -1,0 +1,26 @@
+[
+
+  // { "command": "create_pane", "args": {"direction": "right"} },
+  // { "command": "clone_file_to_pane", "args": {"direction": "right"} },
+  // { "command": "destroy_pane", "args": {"direction": "right"} }
+
+  {
+    "command": "origami_split_right",
+    "args": {
+      "commands": [
+        ["create_pane", {"direction": "right"}],
+        ["clone_file_to_pane", {"direction": "right"}]
+      ]
+    }
+  },
+
+  {
+    "command": "origami_destroy_right",
+    "args": {
+      "commands": [
+        ["destroy_pane", {"direction": "right"}]
+      ]
+    }
+  }
+
+]
